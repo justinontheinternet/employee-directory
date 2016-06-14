@@ -20,7 +20,9 @@ Meteor.startup(() => {
       const { name, email, phone } = helpers.createCard();
 
       Employees.insert({
-        name, email, phone,
+        name,
+        email,
+        phone,
         avatar: image.avatar()
       });
     });
