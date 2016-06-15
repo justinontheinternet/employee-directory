@@ -1,0 +1,11 @@
+/* flex box is great for responsive design */
+
+.employee-list {
+  display: flex; /* displays each element on a single line */
+  flex-wrap: wrap; /* if the next element runs off the page, it will drop it to the next line */
+  justify-content: space-around; /* creates an even amount of space between elements on each line */
+}
+
+.thumbnail {
+  width: 300px;
+}
